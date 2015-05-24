@@ -1,4 +1,4 @@
-# Install neccesery packages
+# Install necessary packages
 if (!require("data.table")) {
   install.packages("data.table")
 }
