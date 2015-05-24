@@ -1,4 +1,4 @@
-Requriements:
+REQUIREMENTS:
 
 Create R script called run_analysis.R that does the following: 
 - Merges the training and the test sets to create one data set.
@@ -7,10 +7,11 @@ Create R script called run_analysis.R that does the following:
 - Appropriately labels the data set with descriptive variable names. 
 - From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-Dependencies:
+DEPENDENCIES:
+
 run_analysis.R needs reshape2 and data.table packages to run correctly. Both packges are loaded automatically by the code.
 
-Code Overview:
+CODE OVERVIEW:
 
 - Install neccesery packages
 - Get activity labels file
